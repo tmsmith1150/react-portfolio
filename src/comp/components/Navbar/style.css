@@ -1,0 +1,21 @@
+.nav {
+    background-color: rgb(45, 116, 182);
+    height: 100px;
+    font-size: 30px;
+    padding-left: 20px;
+    
+}
+
+.ml-3 {
+    font-size: 30px;
+    padding-left: 80px;
+    color: white;
+}
+
+.navLinks {
+    margin-left: 800px;
+    color: whitesmoke;
+}
+
+
+
