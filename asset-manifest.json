@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.08d96558.chunk.css",
+    "main.js": "/static/js/main.19fee7f2.chunk.js",
+    "main.js.map": "/static/js/main.19fee7f2.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.99134865.js",
+    "runtime-main.js.map": "/static/js/runtime-main.99134865.js.map",
+    "static/css/2.d9ad5f5c.chunk.css": "/static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.2f81d66f.chunk.js": "/static/js/2.2f81d66f.chunk.js",
+    "static/js/2.2f81d66f.chunk.js.map": "/static/js/2.2f81d66f.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.be18d7f7a715f8a4e06b5f3b7abb76e3.js": "/precache-manifest.be18d7f7a715f8a4e06b5f3b7abb76e3.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.d9ad5f5c.chunk.css.map": "/static/css/2.d9ad5f5c.chunk.css.map",
+    "static/css/main.08d96558.chunk.css.map": "/static/css/main.08d96558.chunk.css.map",
+    "static/js/2.2f81d66f.chunk.js.LICENSE.txt": "/static/js/2.2f81d66f.chunk.js.LICENSE.txt",
+    "static/media/CSS3-logo.png": "/static/media/CSS3-logo.c26a73b4.png",
+    "static/media/React.js-logo.png": "/static/media/React.js-logo.360a0ef4.png",
+    "static/media/Social-exampl.png": "/static/media/Social-exampl.fae77636.png",
+    "static/media/bootstrap-logo.png": "/static/media/bootstrap-logo.2f581be4.png",
+    "static/media/budget-tracker-example.gif": "/static/media/budget-tracker-example.336047b4.gif",
+    "static/media/email-logo.png": "/static/media/email-logo.6eafc798.png",
+    "static/media/fitness-tracker-example.gif": "/static/media/fitness-tracker-example.b8372acf.gif",
+    "static/media/github-logo.png": "/static/media/github-logo.9ce68bca.png",
+    "static/media/html5-logo.png": "/static/media/html5-logo.00dc6221.png",
+    "static/media/javascript-logo.png": "/static/media/javascript-logo.f11b8f11.png",
+    "static/media/linkedin-logo.png": "/static/media/linkedin-logo.c7462d0c.png",
+    "static/media/mongodb-logo.png": "/static/media/mongodb-logo.7247ed43.png",
+    "static/media/mysql-logo.png": "/static/media/mysql-logo.bab2c760.png",
+    "static/media/selfie.jpeg": "/static/media/selfie.b30688cb.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.99134865.js",
+    "static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.2f81d66f.chunk.js",
+    "static/css/main.08d96558.chunk.css",
+    "static/js/main.19fee7f2.chunk.js"
+  ]
+}
