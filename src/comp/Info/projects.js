@@ -1,13 +1,15 @@
 
 import budgetTrackerGif from '../Gifs/budget-tracker-example.gif';
 import fitnessTrackerGif from '../Gifs/fitness-tracker-example.gif';
+import SocialEx from '../Gifs/Social-exampl.png'
 
 const projects = [
     {
         "id": 1,
         "projectName": "Social",
-        "exampleGif" : budgetTrackerGif,
-        "summary": "Social is an application that allows user to search local events.",
+        "exampleGif" : SocialEx,
+        "summary": " Social is an application allowing users to search, host, and register for local events to create exciting new life experiences. As the site grows, it will also help you grow your group and attract more people who share your interests",
+        "techUsed": "Tech Used: React, Express, Node.js, Mongoose, Bootstrap, Reactstrap, Animate.css, and this project is deployed to Heroku.",
         "githubLink": "https://github.com/CallieCrownover/social",
         "deployedLink": "https://socialhangout.herokuapp.com/"
     },

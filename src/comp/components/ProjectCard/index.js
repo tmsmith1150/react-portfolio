@@ -1,7 +1,6 @@
 import React from 'react';
 import {
-    Card, Button, CardHeader, CardFooter, CardBody,
-    CardTitle, CardText, Row, Col 
+    Card, Button, CardHeader, CardFooter, CardBody, CardText, Row, Col 
 } from 'reactstrap';
 import MediaQuery, { useMediaQuery } from 'react-responsive';
 

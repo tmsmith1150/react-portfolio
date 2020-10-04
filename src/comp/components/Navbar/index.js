@@ -17,7 +17,7 @@ const Navigation = (props) => {
         <NavbarBrand className="ml-3"></NavbarBrand>
         <NavbarToggler onClick={toggle}/>
         <Collapse isOpen={isOpen} navbar>
-          <Nav className="ml-auto" navbar className="navLinks">
+          <Nav className="ml-auto"  className="navLinks">
             <NavItem>
               <NavLink href="/">
                 About Me

@@ -1,13 +1,13 @@
 import React from "react";
 import {
-    Card, Button, CardHeader, CardFooter, CardBody,
-    CardTitle, CardText, Row, Col, NavLink
+    Card, Button, CardHeader, CardBody,
+    CardTitle, Row, Col, NavLink
 } from 'reactstrap';
 import emailIcon from "../../Pictures/email-logo.png";
 import githubIcon from "../../Pictures/github-logo.png";
 import linkedInIcon from "../../Pictures/linkedin-logo.png";
 import headshot from "../../Pictures/selfie.jpeg";
-// import resume from "../Pictures/Web-Dev-Resume.pdf"
+
 import "./style.css";
 import MediaQuery, { useMediaQuery } from 'react-responsive';
 
@@ -33,8 +33,8 @@ const Contact = (props) => {
                                 <Col className="ml-4">
                                     Michelle Jordan
                                 </Col>
-                                <Button>temp button for resume</Button>
-                                {/* <Button color="secondary" className="mr-5" href={resume} target="_blank">Resume</Button> */}
+                                
+                                <Button href="/resume">Resume</Button>
                             </Row>
                         </CardHeader>
                         <CardBody>
