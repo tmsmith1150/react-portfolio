@@ -6,7 +6,6 @@ import { Container } from 'reactstrap';
 import About from './comp/Pages/AboutMe';
 import Projects from './comp/Pages/Projects';
 import Contact from './comp/Pages/Contact';
-import myResume from './comp/Pages/Resume';
 import './index.css'
 // import { library } from '@fortawesome/fontawesome-svg-core';
 // import { faEnvelope, faCodeBranch } from '@fortawesome/free-solid-svg-icons'
@@ -22,7 +21,6 @@ function App() {
             <Route exact path="/" component={About} />
             <Route path="/projects" component={Projects} />
             <Route path="/contact" component={Contact} />
-            <Route path="/resume" components={myResume} />
           </Container>
       </div>
   );

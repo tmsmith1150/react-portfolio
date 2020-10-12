@@ -19,7 +19,7 @@ class About extends React.Component {
         <hr className="my-4" />
         <Row className="justify-content-center">
           <Col>
-            <p className="">I received my Certification for Full Stack Web Development from University of North Carolina Charlotte. I am passionate about creating impactful and responsive web applications to enhance user experiences. I have strong project and people management skills, the ability to take the initiative. I'm excited to leverage my Web Development skills and background in Design to offer unique perspectives and collaborations on how end users interact with web applications.</p>
+            <p className="">I received my Certification for Full Stack Web Development from University of North Carolina Charlotte. I am passionate about creating impactful web applications to enhance user experiences. I have strong project and people management skills, the ability to take the initiative. I'm excited to leverage my Web Development skills and background in Design to offer unique perspectives and collaborations on how end users interact with web applications.</p>
           </Col>
         </Row>
         <hr className="my-4" />
