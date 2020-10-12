@@ -1,6 +1,6 @@
 const express = require("express");
 const passport = require("./config/passport");
-const routes = require("./routes/api-routes");
+const routes = require("./src/App.js");
 
 //UNCOMMENT AFTER ROUTES  ARE CREATED
 // const routes = require("./routes/api");
@@ -14,6 +14,8 @@ app.use(express.json());
 if (process.env.NODE_ENV === "production") {
   app.use(express.static("build"));
 }
+
+
 // using passport library
 app.use(passport.initialize());
 app.use(passport.session());
