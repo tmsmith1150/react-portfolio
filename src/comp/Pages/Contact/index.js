@@ -7,7 +7,7 @@ import emailIcon from "../../Pictures/email-logo.png";
 import githubIcon from "../../Pictures/github-logo.png";
 import linkedInIcon from "../../Pictures/linkedin-logo.png";
 import headshot from "../../Pictures/selfie.jpeg";
-import resume from "../../Pictures/Web-Dev-Resume.pdf"
+import resume from "../../Pictures/Web-Dev-Resume.doc"
 import "./style.css";
 import MediaQuery, { useMediaQuery } from 'react-responsive';
 

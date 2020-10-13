@@ -1,6 +1,6 @@
 const express = require("express");
 const passport = require("./config/passport");
-const routes = require("./routes/api-routes");
+// const routes = require("./routes/api-routes");
 
 //UNCOMMENT AFTER ROUTES  ARE CREATED
 // const routes = require("./routes/api");
