@@ -5,13 +5,22 @@ body {
   rgb(181, 190, 174) 80%); */
 
   background-image: url('./comp/Pictures/background.jpg');
-    background-size: cover;
+  background-repeat: no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+
+
+    /* background-size: cover; */
     
     
     /* background-color: rgb(220, 229, 253); */
+    /* background-repeat: no-repeat;
     height: 100vh;
     padding:0;
-    margin:0;
+    margin:0; */
     
 
     /* https://i.pinimg.com/736x/99/05/a6/9905a6ca0a3d4c6c46971461282750c5.jpg */

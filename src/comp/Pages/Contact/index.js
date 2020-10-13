@@ -43,7 +43,7 @@ const Contact = (props) => {
                                 <Col className="text-Left m-3">
                                     <CardTitle className="lead text-center font-weight-bold">Full Stack Developer</CardTitle>
                                     <hr className="m-3" />
-                                    <NavLink href="mailto:tmsmith1150@live.com"><img className="logo" src={emailIcon} alt="Logo"/> : Michelle </NavLink>
+                                    <NavLink href="mailto:tmsmith1150@live.com"><img className="logo" src={emailIcon} alt="Logo"/> : Michelle Jordan</NavLink>
                                     <NavLink href="https://www.linkedin.com/in/michelle-jordan-6988maiden/"><img className="logo" src={linkedInIcon} alt="Logo"/> : Michelle Jordan</NavLink>
                                     <NavLink href="https://github.com/tmsmith1150"><img className="logo" src={githubIcon} alt="Logo"/> : tmsmith1150</NavLink>                
                                 </Col>
@@ -59,22 +59,22 @@ const Contact = (props) => {
                     <Card className="m-3">
                         <CardHeader tag="h3" >
                             <Row className="justify-content-center">
-                                Joseph Young
+                                Michelle Jordan
                             </Row>
                         </CardHeader>
                         <CardBody>
                             <Row className="justify-content-center"><img className="headshot shadow bg-white rounded mt-3" src={headshot} alt="Headshot"/></Row>
                             <Row className="justify-content-center mt-3">
-                                <CardTitle className="lead font-weight-bold">Software Engineer</CardTitle>
+                                <CardTitle className="lead font-weight-bold">Full-Stack Web Developer</CardTitle>
                             </Row>
                             <hr/>
                             <Row>
                                 <Col className="text-center">
-                                    <Button>temp button for resume</Button>
-                                    {/* <Button color="secondary" className="mb-3" href={resume} target="_blank">Resume</Button> */}
-                                    <NavLink href="mailto:Joseph.Young.Dev@gmail.com"><img className="logo" src={emailIcon} alt="Logo"/> : Joseph Young</NavLink>
-                                    <NavLink href="https://www.linkedin.com/in/joe-young-8a499a18a/"><img className="logo" src={linkedInIcon} alt="Logo"/> : Joseph Young</NavLink>
-                                    <NavLink href="https://github.com/JYoung32"><img className="logo" src={githubIcon} alt="Logo"/> : JYoung32</NavLink>
+                                <Button color="secondary" className="mr-5" href={resume} target="_blank">Resume</Button>
+                                    
+                                    <NavLink href="mailto:tmsmith1150@live.com"><img className="logo" src={emailIcon} alt="Logo"/> : Michelle Jordan</NavLink>
+                                    <NavLink href="https://www.linkedin.com/in/michelle-jordan-6988maiden/"><img className="logo" src={linkedInIcon} alt="Logo"/> : Michelle Jordan</NavLink>
+                                    <NavLink href="https://github.com/tmsmith1150"><img className="logo" src={githubIcon} alt="Logo"/> : tmsmith1150</NavLink>
                                 </Col>                
                             </Row>
                         </CardBody>

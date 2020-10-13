@@ -1,6 +1,6 @@
 {
-  "name": "my-react-portfolio",
-  "homepage": "https://mj88dev.com",
+  "name": "react-portfolio",
+  "homepage": "https://pure-shore-67851.herokuapp.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -16,7 +16,8 @@
     "react-responsive": "^8.1.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.3",
-    "reactstrap": "^8.6.0"
+    "reactstrap": "^8.6.0",
+    "serve": "^11.3.2"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -1,5 +1,5 @@
 const express = require("express");
-const passport = require("./config/passport");
+// const passport = require("./config/passport");
 // const routes = require("./routes/api-routes");
 
 //UNCOMMENT AFTER ROUTES  ARE CREATED
@@ -12,16 +12,16 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 // Serve up static assets (usually on heroku)
 if (process.env.NODE_ENV === "production") {
-  app.use(express.static("build"));
+  app.use(express.static("src/comp"));
 }
 
 
 // using passport library
-app.use(passport.initialize());
-app.use(passport.session());
+// app.use(passport.initialize());
+// app.use(passport.session());
 
 
-app.use(routes);
+// app.use(routes);
 
 
 // Start the API server

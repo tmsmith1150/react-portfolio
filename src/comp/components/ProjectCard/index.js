@@ -3,6 +3,7 @@ import {
     Card, Button, CardHeader, CardFooter, CardBody, CardText, Row, Col 
 } from 'reactstrap';
 import MediaQuery, { useMediaQuery } from 'react-responsive';
+import './style.css';
 
 const ProjectCard = (props) => {
 
@@ -15,7 +16,7 @@ const ProjectCard = (props) => {
     });
 
     return (
-        <div>
+        <div className="project-div">
         {isDesktopOrLaptop && <>
             <Card className="m-4">
                 <CardHeader tag="h3" className="p-3">{props.projectName}</CardHeader>
