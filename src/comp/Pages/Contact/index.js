@@ -9,21 +9,21 @@ import linkedInIcon from "../../Pictures/linkedin-logo.png";
 import headshot from "../../Pictures/selfie.jpeg";
 import resume from "../../Pictures/Web-Dev-Resume.doc"
 import "./style.css";
-import MediaQuery, { useMediaQuery } from 'react-responsive';
+// import MediaQuery, { useMediaQuery } from 'react-responsive';
 
 const Contact = (props) => {
 
-    const isDesktopOrLaptop = useMediaQuery({
-        query: '(min-device-width: 1024px)'
-    });
+    // const isDesktopOrLaptop = useMediaQuery({
+    //     query: '(min-device-width: 1024px)'
+    // });
 
-    const isTabletOrPhone = useMediaQuery({
-        query: '(max-device-width: 1023px)'
-    });
+    // const isTabletOrPhone = useMediaQuery({
+    //     query: '(max-device-width: 1023px)'
+    // });
 
     return (
         <div>    
-            {isDesktopOrLaptop && <>
+            
                 <h3 className="m-5 text-center">Contact Information</h3>
                 <hr className="my-4" />
                 <Row className="d-flex justify-content-center">
@@ -51,8 +51,8 @@ const Contact = (props) => {
                         </CardBody>
                     </Card>
                 </Row>
-            </>}
-            {isTabletOrPhone && <>
+           
+            {/* {isTabletOrPhone && <>
                 <h3 className="m-3 text-center">Contact Information</h3>
                 <hr className="my-4" />
                 <Row className="d-flex justify-content-center">
@@ -80,7 +80,7 @@ const Contact = (props) => {
                         </CardBody>
                     </Card>
                 </Row>
-            </>}
+            </>} */}
         </div>
     );
 }

@@ -2,22 +2,22 @@ import React from 'react';
 import {
     Card, Button, CardHeader, CardFooter, CardBody, CardText, Row, Col 
 } from 'reactstrap';
-import MediaQuery, { useMediaQuery } from 'react-responsive';
+// import MediaQuery, { useMediaQuery } from 'react-responsive';
 import './style.css';
 
 const ProjectCard = (props) => {
 
-    const isDesktopOrLaptop = useMediaQuery({
-        query: '(min-device-width: 1224px)'
-    });
+    // const isDesktopOrLaptop = useMediaQuery({
+    //     query: '(min-device-width: 1224px)'
+    // });
 
-    const isTabletOrPhone = useMediaQuery({
-        query: '(max-device-width: 1224px)'
-    });
+    // const isTabletOrPhone = useMediaQuery({
+    //     query: '(max-device-width: 1224px)'
+    // });
 
     return (
         <div className="project-div">
-        {isDesktopOrLaptop && <>
+     
             <Card className="m-4">
                 <CardHeader tag="h3" className="p-3">{props.projectName}</CardHeader>
                 <Row>
@@ -37,8 +37,8 @@ const ProjectCard = (props) => {
                     <Button href={props.deployedLink} className="mr-5" target="_blank">Deployed Link</Button>
                 </CardFooter>
             </Card>
-        </>}
-        {isTabletOrPhone && <>
+       
+        {/* {isTabletOrPhone && <>
             <Card className="m-4">
             <CardHeader tag="h3" className="p-3">{props.projectName}</CardHeader>
             <CardBody>
@@ -59,7 +59,7 @@ const ProjectCard = (props) => {
                 <Button href={props.deployedLink} className="m-2" target="_blank">Deployed Link</Button>
             </CardFooter>
         </Card>
-        </>}
+        </>} */}
         </div>
     )
 }
