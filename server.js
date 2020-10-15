@@ -1,7 +1,7 @@
 const express = require("express");
-const passport = require("./config/passport");
+// const passport = require("./config/passport");
 const mongoose = require("mongoose");
-const routes = require("./routes/api-routes");
+// const routes = require("./routes/api-routes");
 
 //UNCOMMENT AFTER ROUTES  ARE CREATED
 // const routes = require("./routes/api");
@@ -16,11 +16,11 @@ if (process.env.NODE_ENV === "production") {
   app.use(express.static("client/build"));
 }
 // using passport library
-app.use(passport.initialize());
-app.use(passport.session());
+// app.use(passport.initialize());
+// app.use(passport.session());
 
 //UNCOMMENT AFTER ROUTES ARE CREATED
-app.use(routes);
+// app.use(routes);
 
 // Connect to the Mongo DB
 // mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/social");
