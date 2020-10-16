@@ -19,17 +19,17 @@ const Navigation = (props) => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto navLinks">
             <NavItem>
-              <NavLink href="/">
+              <NavLink href="/" className="links">
                 About Me
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/projects">
+              <NavLink href="/projects" className="links">
                 Projects
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/contact">
+              <NavLink href="/contact" className="links">
                 Contact
               </NavLink>
             </NavItem>
