@@ -34,7 +34,7 @@ const Contact = (props) => {
                                     Michelle Jordan
                                 </Col>
                                 
-                                <Button color="primary" className="mr-5" href={resume} target="_blank">Resume</Button>
+                                <Button className="mr-5" href={resume} target="_blank">Resume</Button>
                             </Row>
                         </CardHeader>
                         <CardBody>
