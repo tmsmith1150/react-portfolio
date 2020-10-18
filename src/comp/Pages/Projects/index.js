@@ -1,5 +1,5 @@
 import React from "react"
-import ProjectCard from "../../components/ProjectCard"
+import ProjectCard from "../../ProjectCard"
 import { Jumbotron } from 'reactstrap';
 import projects from '../../Info/projects.js';
 

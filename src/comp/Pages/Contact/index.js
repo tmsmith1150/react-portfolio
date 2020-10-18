@@ -43,9 +43,9 @@ const Contact = (props) => {
                                 <Col className="text-Left m-3">
                                     <CardTitle className="lead text-center font-weight-bold">Full Stack Developer</CardTitle>
                                     <hr className="m-3" />
-                                    <NavLink href="mailto:tmsmith1150@live.com"><img className="logo" src={emailIcon} alt="Logo"/> : Michelle Jordan</NavLink>
-                                    <NavLink href="https://www.linkedin.com/in/michelle-jordan-6988maiden/"><img className="logo" src={linkedInIcon} alt="Logo"/> : Michelle Jordan</NavLink>
-                                    <NavLink href="https://github.com/tmsmith1150"><img className="logo" src={githubIcon} alt="Logo"/> : tmsmith1150</NavLink>                
+                                    <NavLink className="links" href="mailto:tmsmith1150@live.com"><img className="logo" src={emailIcon} alt="Logo"/> : Michelle Jordan</NavLink>
+                                    <NavLink className="links" href="https://www.linkedin.com/in/michelle-jordan-6988maiden/"><img className="logo" src={linkedInIcon} alt="Logo"/> : Michelle Jordan</NavLink>
+                                    <NavLink className="links" href="https://github.com/tmsmith1150"><img className="logo" src={githubIcon} alt="Logo"/> : tmsmith1150</NavLink>                
                                 </Col>
                             </Row>
                         </CardBody>

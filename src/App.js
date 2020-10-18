@@ -1,7 +1,7 @@
 import React from 'react';
 import {Route, Switch} from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Navbar from "./comp/components/Navbar";
+import Navbar from "./comp/Navbar";
 import { Container } from 'reactstrap';
 import About from './comp/Pages/AboutMe';
 import Projects from './comp/Pages/Projects';
