@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-    Card, Button, CardHeader, CardFooter, CardBody, CardText, Row, Col 
+    Card, Button, CardHeader, CardFooter, CardBody, CardText, Row, Col, NavLink 
 } from 'reactstrap';
 import MediaQuery, { useMediaQuery } from 'react-responsive';
 import './style.css';
@@ -17,24 +17,24 @@ const ProjectCard = (props) => {
 
     return (
         <div className="project-div">
-     
-            <Card className="m-4">
-                <CardHeader tag="h3" className="p-3">{props.projectName}</CardHeader>
+            <hr className="project-lines" color="white"></hr>
+            <Card className="m-4 project-card">
+                <CardHeader tag="h3" className="p-3 brand title">{props.projectName}</CardHeader>
                 <Row>
                     <Col>
                         <img width="75%" className="m-5"src={props.exampleGif} alt="Project Pic" />
                     </Col>
                     <Col>
                     <CardBody>
-                    <CardText className="mt-3"><b>Summary:</b> {props.summary}</CardText>
+                    <CardText className="mt-3 brand"><b>Summary:</b> {props.summary}</CardText>
                     <br />
-                    <CardText><b>Tech Used:</b> {props.techUsed}</CardText>
+                    <CardText className="mt-3 brand"><b>Tech Used:</b> {props.techUsed}</CardText>
                     </CardBody>
                     </Col>
                 </Row>
                 <CardFooter className="d-flex justify-content-end p-2">
-                    <Button href={props.githubLink} className="mr-5" target="_blank">Github Link</Button>
-                    <Button href={props.deployedLink} className="mr-5" target="_blank">Deployed Link</Button>
+                    <NavLink href={props.githubLink} className="mr-5" target="_blank">Github Link</NavLink>
+                    <NavLink href={props.deployedLink} className="mr-5" target="_blank">Deployed Link</NavLink>
                 </CardFooter>
             </Card>
        

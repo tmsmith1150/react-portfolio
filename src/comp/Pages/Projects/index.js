@@ -14,7 +14,7 @@ class Projects extends React.Component {
             <div className="m-3 projects">
            
                 <h1 className="display-4 text-center pb-5 brand">Projects</h1>
-                <p className="lead text-center brand">See what I have built!</p>
+                <p className="lead text-center brand animate__animated animate__fadeInDown animate__delay-3s">See what I have built!</p>
                 <hr className="my-4" />
                     {this.state.projects.map(project => (
                         <ProjectCard

@@ -25,12 +25,12 @@ class About extends React.Component {
         </div>
     <div className="main m-3 text-center hello">
         
-        <h1 className="display-4 brand">Michelle Jordan</h1>
-        <p className="lead brand">Full-Stack Web Developer.</p>
+        <h1 className="display-4 brand animate__animated animate__fadeIn animate__delay-2s">Michelle Jordan</h1>
+        <p className="lead brand animate__animated animate__fadeIn animate__delay-3s">Full-Stack Web Developer.</p>
         <hr className="my-4" color="white" />
         <Row className="justify-content-center">
           <Col>
-            <p className="brand">I recently received my Certification for Full Stack Web Development from UNCC. I am passionate about creating impactful and responsive web applications to enhance user experiences. I have strong project and people management skills, the ability to take the initiative. I'm excited to leverage my Web Development skills and background in Design to offer unique perspectives and collaborations on how end users interact with web applications.</p>
+            <p className="brand animate__animated animate__fadeInUp animate__delay-5s">I recently received my Certification for Full Stack Web Development from UNCC. I am passionate about creating impactful and responsive web applications to enhance user experiences. I have strong project and people management skills, the ability to take the initiative. I'm excited to leverage my Web Development skills and background in Design to offer unique perspectives and collaborations on how end users interact with web applications.</p>
             <p className="brand resume">
               Please check out my  <a className="res-link" href = {resume} target = "_blank" rel="noopener noreferrer">resume</a> to see more about my work experiences.
             </p>
@@ -52,7 +52,7 @@ class About extends React.Component {
             <Col>
               <img className="skillsLogo" src={skill.src} alt="Logo"/>
               <hr className="my-2" />
-              <p>{skill.skill}</p>
+              <p className="brand">{skill.skill}</p>
             </Col>
           ))}
         </Row>

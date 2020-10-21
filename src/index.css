@@ -4,14 +4,20 @@ body {
   rgb(21, 22, 27) 34%,
   rgb(181, 190, 174) 80%); */
 
-  background-image: url('./comp/Pictures/background-15.jpg');
+  /* background-image: url('./comp/Pictures/background-15.jpg');
   background-repeat: no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  background-size: cover; */
+
+  background: #000;
+  width: 100%;
+  height: 100vh;
   background-size: cover;
-
-
+  background-position: center;
+  position: relative;
+ 
 
     /* background-size: cover; */
     

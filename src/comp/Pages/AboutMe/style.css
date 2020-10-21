@@ -24,7 +24,7 @@
 }
 
 .res-link {
-    color: rgb(17, 17, 250);
+    color: rgb(2, 117, 248);
 }
 
 .pic {
@@ -45,4 +45,9 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+.display-4 {
+    animation: fadeIn;
+    animation-duration: 5s;
 }
