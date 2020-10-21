@@ -13,7 +13,7 @@ const Navigation = (props) => {
 
   return (
       <div className="nav">
-      <Navbar className="nav sticky-top" light expand="md">
+      <Navbar className="nav sticky-top brand" light expand="md">
 
         <NavbarBrand className="ml-3"></NavbarBrand>
         <NavbarToggler onClick={toggle}/>
