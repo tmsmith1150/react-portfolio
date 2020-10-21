@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import './style.css';
 import {
-  Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink
+  Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink, Button
 } from 'reactstrap';
+
 
 
 const Navigation = (props) => {
@@ -18,21 +19,25 @@ const Navigation = (props) => {
         <NavbarToggler onClick={toggle}/>
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto navLinks">
+
             <NavItem>
               <NavLink href="/" className="links">
-                About Me
+                Home
               </NavLink>
             </NavItem>
+
             <NavItem>
               <NavLink href="/projects" className="links">
                 Projects
               </NavLink>
             </NavItem>
-            <NavItem>
+
+            {/* <NavItem>
               <NavLink href="/contact" className="links">
                 Contact
               </NavLink>
-            </NavItem>
+            </NavItem> */}
+  
           </Nav>
         </Collapse>
       </Navbar>

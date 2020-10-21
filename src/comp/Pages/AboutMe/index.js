@@ -1,7 +1,14 @@
 import React from "react"
-import { Jumbotron, Row, Col } from 'reactstrap';
+import { Row, Col, NavLink } from 'reactstrap';
 import './style.css';
 import skills from "../../Info/skills.js";
+import headshot from "../../Pictures/selfie.jpeg";
+import resume from "../../Pictures/Web-Dev-Resume.doc";
+import emailIcon from "../../Pictures/email-logo.png";
+import githubIcon from "../../Pictures/github-logo.png";
+import linkedInIcon from "../../Pictures/linkedin-logo.png";
+
+
 
 class About extends React.Component {
 
@@ -11,21 +18,33 @@ class About extends React.Component {
 
   render() {
     return (
-      
-    <div className="main">
-      <Jumbotron className="m-3 text-center hello">
-        <h1 className="display-4">Hello, I'm Michelle Jordan</h1>
-        <p className="lead">I am a full-stack web developer.</p>
-        <hr className="my-4" />
+      <div>
+     <div className="banner">
+        {/* <Row className="justify-content-center pic"><img className="headshot shadow bg-white rounded mt-3" src={headshot} alt="Headshot"/>
+        </Row> */}
+        </div>
+    <div className="main m-3 text-center hello">
+        
+        <h1 className="display-4 brand">Michelle Jordan</h1>
+        <p className="lead brand">Full-Stack Web Developer.</p>
+        <hr className="my-4" color="white" />
         <Row className="justify-content-center">
           <Col>
-            <p className="">I received my Certification for Full Stack Web Development from University of North Carolina Charlotte. I am passionate about creating impactful web applications to enhance user experiences. I have strong project and people management skills, the ability to take the initiative. I'm excited to leverage my Web Development skills and background in Design to offer unique perspectives and collaborations on how end users interact with web applications.</p>
+            <p className="brand">I recently received my Certification for Full Stack Web Development from UNCC. I am passionate about creating impactful and responsive web applications to enhance user experiences. I have strong project and people management skills, the ability to take the initiative. I'm excited to leverage my Web Development skills and background in Design to offer unique perspectives and collaborations on how end users interact with web applications.</p>
+            <p className="brand resume">
+              Please check out my  <a className="res-link" href = {resume} target = "_blank" rel="noopener noreferrer">resume</a> to see more about my work experiences.
+            </p>
+            <Row className="justify-content-center">
+            <NavLink className="links" href="mailto:tmsmith1150@live.com"><img className="logo" src={emailIcon} alt="Logo"/></NavLink>
+                                    <NavLink className="links" href="https://www.linkedin.com/in/michelle-jordan-6988maiden/"><img className="logo" src={linkedInIcon} alt="Logo"/></NavLink>
+                                    <NavLink className="links" href="https://github.com/tmsmith1150"><img className="logo" src={githubIcon} alt="Logo"/></NavLink>
+                                    </Row>
           </Col>
         </Row>
-        <hr className="my-4" />
+        <hr className="my-4" color="white" />
         <Row className="justify-content-center">
           <Col xs="8">
-            <p className="font-weight-bold">Technical Skills</p>
+            <p className="font-weight-bold brand">Technical Skills</p>
           </Col>
         </Row>
         <Row className="justify-content-center">
@@ -37,7 +56,8 @@ class About extends React.Component {
             </Col>
           ))}
         </Row>
-      </Jumbotron>
+ 
+    </div>
     </div>
     
     );

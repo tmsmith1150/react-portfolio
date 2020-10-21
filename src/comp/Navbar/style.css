@@ -1,5 +1,5 @@
 .nav {
-    background-color: #1d4150;
+    /* background-color: #1d4150; */
     height: 100px;
     font-size: 30px;
     padding-left: 20px;
@@ -8,17 +8,18 @@
 
 .ml-3 {
     font-size: 30px;
-    padding-left: 900px;
     color: white;
 }
 
 .navLinks {
     height: 90px;
     padding-top: 10px;
+    padding-left: 50px;
 }
 
 .links {
     color: white;
+    padding-left: 50px;
 }
 
 

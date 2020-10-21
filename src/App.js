@@ -5,7 +5,9 @@ import Navbar from "./comp/Navbar";
 import { Container } from 'reactstrap';
 import About from './comp/Pages/AboutMe';
 import Projects from './comp/Pages/Projects';
+// do not delete contact below
 import Contact from './comp/Pages/Contact';
+
 import './index.css'
 
 
@@ -16,10 +18,10 @@ function App() {
           <Container>
             <Switch>
           <Route path="/projects" component={Projects} />
-            <Route path="/contact" component={Contact} />
             <Route path="/" component={About} />
             </Switch>
           </Container>
+         
       </div>
   );
 }

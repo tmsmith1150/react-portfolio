@@ -5,11 +5,44 @@
 
 .hello {
     
-    background-color: #9dc5c3;
-background-image: linear-gradient(315deg, #2f657c 30%, #989b9a 70%);
+    /* background-image: url('https://us.123rf.com/450wm/kurkalukas/kurkalukas1705/kurkalukas170500036/78170538-fondo-astratto-metallico-grigio-aspetto-metallico-acciaio-inossidabile-alluminio-pendenza-nero-strut.jpg?ver=6'); */
+    padding-top: 10px;
     
 }
 
 .main {
     margin-top: 100px;
+}
+
+.brand {
+    color: white;
+    font-family: 'Arima Madurai', cursive;
+}
+
+.resume {
+    font-size: 20px;
+}
+
+.res-link {
+    color: rgb(17, 17, 250);
+}
+
+.pic {
+    margin-bottom: 20px;
+    
+}
+
+.headshot {
+    width: 100%;
+}
+
+.banner {
+    width: 100%;
+    height: 350px;
+    background-image: url('../../Pictures/banner-15.jpg');
+    background-repeat: no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
