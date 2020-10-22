@@ -41,23 +41,23 @@ const ProjectCard = (props) => {
             </>}
         {isTabletOrPhone && <>
             <Card className="m-4">
-            <CardHeader tag="h3" className="p-3">{props.projectName}</CardHeader>
+            <CardHeader tag="h3" className="p-3 brand">{props.projectName}</CardHeader>
             <CardBody>
                 <Row className="justify-content-center">
                     <img width="75%" height="75%" src={props.exampleGif} alt="Project Pic" />
                 </Row>
                 <br/>
                 <Row>
-                    <CardText className="m-3"><b>Summary:</b> {props.summary}</CardText>
+                    <CardText className="m-3 brand"><b>Summary:</b> {props.summary}</CardText>
                 </Row>
                 <Row>
-                    <CardText className="m-3"><b>Tech Used:</b> {props.techUsed}</CardText>
+                    <CardText className="m-3 brand"><b>Tech Used:</b> {props.techUsed}</CardText>
                 </Row>
             </CardBody>
             
             <CardFooter className="d-flex justify-content-around p-1">
-                <Button href={props.githubLink} className="m-2" target="_blank">Github Link</Button>
-                <Button href={props.deployedLink} className="m-2" target="_blank">Deployed Link</Button>
+                <NavLink href={props.githubLink} className="m-2" target="_blank">Github Link</NavLink>
+                <NavLink href={props.deployedLink} className="m-2" target="_blank">Deployed Link</NavLink>
             </CardFooter>
         </Card>
         </>}
