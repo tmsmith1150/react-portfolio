@@ -40,18 +40,19 @@ const ProjectCard = (props) => {
             </Card>
             </>}
         {isTabletOrPhone && <>
-            <Card className="m-4">
-            <CardHeader tag="h3" className="p-3 brand">{props.projectName}</CardHeader>
+            <hr className="project-lines" color="white"></hr>
+            <Card className="m-4 project-card">
+            <CardHeader tag="h3" className="p-3 brand title">{props.projectName}</CardHeader>
             <CardBody>
                 <Row className="justify-content-center">
                     <img width="75%" height="75%" src={props.exampleGif} alt="Project Pic" />
                 </Row>
                 <br/>
                 <Row>
-                    <CardText className="m-3 brand"><b>Summary:</b> {props.summary}</CardText>
+                    <CardText className="m-3 brand"><b>Summary:</b> <p className="brand">{props.summary}</p></CardText>
                 </Row>
                 <Row>
-                    <CardText className="m-3 brand"><b>Tech Used:</b> {props.techUsed}</CardText>
+                    <CardText className="m-3 brand"><b>Tech Used:</b> <p className="brand">{props.techUsed}</p></CardText>
                 </Row>
             </CardBody>
             
