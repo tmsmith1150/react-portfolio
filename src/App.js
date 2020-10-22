@@ -7,7 +7,7 @@ import About from './comp/Pages/AboutMe';
 import Projects from './comp/Pages/Projects';
 // do not delete contact below
 import Contact from './comp/Pages/Contact';
-
+// import Resume from '.comp/Pages/Resume';
 import './index.css'
 
 
@@ -17,6 +17,7 @@ function App() {
         <Navbar />
           <Container>
             <Switch>
+              {/* <Route path="/myReactResume" component={Resume} /> */}
           <Route path="/projects" component={Projects} />
             <Route path="/" component={About} />
             </Switch>

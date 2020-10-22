@@ -1,5 +1,5 @@
 import React from "react"
-import myResume from "../../components/Resume"
+
 import { Jumbotron } from 'reactstrap';
 import './style.css';
 
@@ -10,7 +10,7 @@ class myReactResume extends React.Component {
       
     <div className="main">
       <Jumbotron>
-        <myResume>
+       
       <div id="mainPage">
         
         <h1 id="h1Name">Michelle Jordan</h1> 
@@ -121,7 +121,7 @@ class myReactResume extends React.Component {
  
  
      </div>
-     </myResume>
+    
       </Jumbotron>
     </div>
     
