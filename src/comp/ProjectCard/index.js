@@ -17,6 +17,7 @@ const ProjectCard = (props) => {
 
     return (
         <div className="project-div">
+            {isDesktopOrLaptop && <>
             <hr className="project-lines" color="white"></hr>
             <Card className="m-4 project-card">
                 <CardHeader tag="h3" className="p-3 brand title">{props.projectName}</CardHeader>
@@ -37,7 +38,7 @@ const ProjectCard = (props) => {
                     <NavLink href={props.deployedLink} className="mr-5" target="_blank">Deployed Link</NavLink>
                 </CardFooter>
             </Card>
-       
+            </>}
         {isTabletOrPhone && <>
             <Card className="m-4">
             <CardHeader tag="h3" className="p-3">{props.projectName}</CardHeader>
