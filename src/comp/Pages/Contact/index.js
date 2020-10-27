@@ -7,7 +7,7 @@ import emailIcon from "../../Pictures/email-logo.png";
 import githubIcon from "../../Pictures/github-logo.png";
 import linkedInIcon from "../../Pictures/linkedin-logo.png";
 import headshot from "../../Pictures/selfie.jpeg";
-import resume from "../../Pictures/Web-Dev-Resume.doc"
+// import resume from "../../Pictures/Web-Dev-Resume.doc"
 import "./style.css";
 import MediaQuery, { useMediaQuery } from 'react-responsive';
 
@@ -34,7 +34,7 @@ const Contact = (props) => {
                                     Michelle Jordan
                                 </Col>
                                 
-                                <Button className="mr-5" href={resume} target="_blank">Resume</Button>
+                                {/* <Button className="mr-5" href={resume} target="_blank">Resume</Button> */}
                             </Row>
                         </CardHeader>
                         <CardBody>
@@ -70,7 +70,7 @@ const Contact = (props) => {
                             <hr/>
                             <Row>
                                 <Col className="text-center">
-                                <Button color="secondary" className="mr-5" href={resume} target="_blank">Resume</Button>
+                                {/* <Button color="secondary" className="mr-5" href={resume} target="_blank">Resume</Button> */}
                                     
                                     <NavLink href="mailto:tmsmith1150@live.com"><img className="logo" src={emailIcon} alt="Logo"/> : Michelle Jordan</NavLink>
                                     <NavLink href="https://www.linkedin.com/in/michelle-jordan-6988maiden/"><img className="logo" src={linkedInIcon} alt="Logo"/> : Michelle Jordan</NavLink>

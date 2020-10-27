@@ -3,7 +3,7 @@ import { Row, Col, NavLink } from 'reactstrap';
 import './style.css';
 import skills from "../../Info/skills.js";
 import headshot from "../../Pictures/selfie.jpeg";
-import resume from "../../Pictures/Web-Dev-Resume.pdf";
+import resume from "../../Pictures/Web-Dev-Resume2.pdf";
 import emailIcon from "../../Pictures/email-logo.png";
 import githubIcon from "../../Pictures/github-logo.png";
 import linkedInIcon from "../../Pictures/linkedin-logo.png";
@@ -30,7 +30,7 @@ class About extends React.Component {
         <hr className="my-4" color="white" />
         <Row className="justify-content-center">
           <Col>
-            <p className="brand animate__animated animate__fadeInUp animate__delay-5s">I recently received my Certification for Full Stack Web Development from UNCC. I am passionate about creating impactful and responsive web applications to enhance user experiences. I have strong project and people management skills, the ability to take the initiative. I'm excited to leverage my Web Development skills and background in Design to offer unique perspectives and collaborations on how end users interact with web applications.</p>
+            <p className="brand animate__animated animate__fadeInUp animate__delay-5s">I received my Certificate for Full Stack Web Development from UNCC. I am passionate about creating impactful and responsive web applications to enhance user experiences. I have strong project and people management skills, the ability to take the initiative. I'm excited to leverage my Web Development skills and background in Design to offer unique perspectives and collaborations on how end users interact with web applications.</p>
             <p className="brand resume">
               Please check out my  <a className="res-link" href = {resume} target = "_blank" rel="noopener noreferrer">resume</a> to see more about my work experiences.
             </p>
