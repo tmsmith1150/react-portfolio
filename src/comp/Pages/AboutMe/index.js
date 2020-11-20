@@ -25,7 +25,7 @@ class About extends React.Component {
         </div>
     <div className="main m-3 text-center hello">
         
-        <h1 className="display-4 brand animate__animated animate__fadeIn animate__delay-2s">Michelle Jordan</h1>
+        <h1 className="display-4 brand animate__animated animate__fadeIn animate__delay-1s">Michelle Jordan</h1>
         <p className="lead brand animate__animated animate__fadeIn animate__delay-3s">Full-Stack Web Developer.</p>
         <hr className="my-4" color="white" />
         <Row className="justify-content-center">
