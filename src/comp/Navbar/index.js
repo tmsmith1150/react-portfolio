@@ -27,7 +27,7 @@ const isTabletOrPhone = useMediaQuery({
       <Navbar className="nav sticky-top brand" light expand="md">
 
         <NavbarBrand className="ml-3"></NavbarBrand>
-        <NavbarToggler onClick={toggle}/>
+        <NavbarToggler className="toggler" onClick={toggle}/>
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto navLinks">
 
