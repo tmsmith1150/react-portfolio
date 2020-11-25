@@ -3,7 +3,7 @@ import { Row, Col, NavLink } from 'reactstrap';
 import './style.css';
 import skills from "../../Info/skills.js";
 import headshot from "../../Pictures/selfie.jpeg";
-import resume from "../../Pictures/Web-Dev-Resume3.pdf";
+import resume from "../../Pictures/MJ-Resume.pdf";
 import emailIcon from "../../Pictures/email-logo.png";
 import githubIcon from "../../Pictures/github-logo.png";
 import linkedInIcon from "../../Pictures/linkedin-logo.png";
