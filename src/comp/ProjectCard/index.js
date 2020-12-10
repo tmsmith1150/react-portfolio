@@ -23,7 +23,9 @@ const ProjectCard = (props) => {
                 <CardHeader tag="h3" className="p-3 brand title">{props.projectName}</CardHeader>
                 <Row>
                     <Col>
+                    <NavLink href={props.deployedLink} className="mr-5" target="_blank">
                         <img width="75%" className="m-5"src={props.exampleGif} alt="Project Pic" />
+                        </NavLink>
                     </Col>
                     <Col>
                     <CardBody>
