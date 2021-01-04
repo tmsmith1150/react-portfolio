@@ -4,7 +4,7 @@ import fitnessTrackerGif from '../Gifs/fitness-tracker-example.gif';
 import socialExGif from '../Gifs/social-example.gif';
 import burgerBarnGif from '../Gifs/burger-barn-example.gif';
 import cyclepathsGif from '../Gifs/cyclepaths-example.gif';
-import coldBeerOpenGif from '../Gifs/Cold-Beer-Open.png';
+import coldBeerOpenGif from '../Gifs/Cold-Beer-Open.gif';
 
 const projects = [
     {
