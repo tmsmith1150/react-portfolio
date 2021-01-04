@@ -3,9 +3,19 @@ import budgetTrackerGif from '../Gifs/budget-tracker-example.gif';
 import fitnessTrackerGif from '../Gifs/fitness-tracker-example.gif';
 import socialExGif from '../Gifs/social-example.gif';
 import burgerBarnGif from '../Gifs/burger-barn-example.gif';
-import cyclepathsGif from '../Gifs/cyclepaths-example.gif'
+import cyclepathsGif from '../Gifs/cyclepaths-example.gif';
+import coldBeerOpenGif from '../Gifs/Cold-Beer-Open.png';
 
 const projects = [
+    {
+        "id": 1,
+        "projectName": "Cold Beer Open",
+        "exampleGif" : coldBeerOpenGif,
+        "summary": "Clients Terry and Earl host the Cold Beer Open annual golf tournament. With nearly 100 participates each year they needed a website rich in tradition and energy while modernizing the processes and communications.",
+        "techUsed": "React, Express, Node.js, MySql, Bootstrap, Reactstrap, Animate.css, and this project is deployed to Heroku.",
+        "githubLink": "https://github.com/tmsmith1150/cold_beer_open",
+        "deployedLink": "https://coldbeeropen.herokuapp.com/"
+    },
     {
         "id": 1,
         "projectName": "Social",
