@@ -17,6 +17,7 @@
 .brand {
     color: white;
     font-family: 'Arima Madurai', cursive;
+    padding-top: 40px;
 }
 
 .resume {
@@ -37,14 +38,24 @@
 }
 
 .banner {
-    width: 100%;
-    height: 350px;
-    background-image: url('../../Pictures/banner-20.jpg');
+    width: 400px;
+    height: 400px;
+    background-image: url('../../Pictures/banner-18.jpg');
     background-repeat: no-repeat center center fixed;
+    box-shadow: inset 0 0 30px 10px rgb(3, 3, 3);
+  
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  border-radius: 200px 200px;
+
+ 
+}
+
+.banner2 {
+    padding-top: 105px;
+    width: 600px;
 }
 
 .display-4 {

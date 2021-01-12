@@ -19,14 +19,21 @@ class About extends React.Component {
   render() {
     return (
       <div>
-     {/* <div className="banner">
+       <div className="main m-3 text-center hello">
+         <Row>
+           <Col>
+     <div className="banner">
         
-        </div> */}
-    <div className="main m-3 text-center hello">
-        
+        </div>
+        </Col>
+        <Col>
+        <div className="banner2">
         <h1 className="display-4 brand animate__animated animate__fadeIn animate__delay-1s">Michelle Jordan</h1>
         <p className="lead brand animate__animated animate__fadeIn animate__delay-3s">Full-Stack Web Developer.</p>
-        <hr className="my-4" color="white" />
+        </div>
+        </Col>
+        </Row>
+        
         <Row className="justify-content-center">
           <Col>
             <p className="brand animate__animated animate__fadeInUp animate__delay-3s">I am a passionate web developer who enjoys taking on new challenges, learning new technologies and bringing a vision to life through coding. I received my Certificate for Full Stack Web Development from UNCC. I'm excited to leverage my Web Development skills and background in Design to offer unique perspectives and create impactful web applications to enhance user experiences.</p>
