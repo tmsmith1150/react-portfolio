@@ -19,10 +19,9 @@ class About extends React.Component {
   render() {
     return (
       <div>
-     <div className="banner">
-        {/* <Row className="justify-content-center pic"><img className="headshot shadow bg-white rounded mt-3" src={headshot} alt="Headshot"/>
-        </Row> */}
-        </div>
+     {/* <div className="banner">
+        
+        </div> */}
     <div className="main m-3 text-center hello">
         
         <h1 className="display-4 brand animate__animated animate__fadeIn animate__delay-1s">Michelle Jordan</h1>
