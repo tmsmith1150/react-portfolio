@@ -22,7 +22,8 @@ const isTabletOrPhone = useMediaQuery({
 
   return (
     
-      <div className="nav">
+    <div className="navbar-main">
+      <div className="nav-bar">
         {isDesktopOrLaptop && <>
       <Navbar className="nav sticky-top brand" light expand="md">
 
@@ -84,6 +85,7 @@ const isTabletOrPhone = useMediaQuery({
         </Collapse>
       </Navbar>
       </>}
+      </div>
       </div>
           
   );

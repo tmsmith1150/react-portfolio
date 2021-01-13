@@ -10,6 +10,7 @@ import linkedInIcon from "../../Pictures/linkedin-logo.png";
 
 
 
+
 class About extends React.Component {
 
   state = {

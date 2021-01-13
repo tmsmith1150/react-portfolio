@@ -1,11 +1,21 @@
-.nav {
-    /* background-color: #1d4150; */
-    height: 100px;
+.nav-bar {
+    background-image: url('../../comp/Pictures/background-15.jpg');
+    height: 60px;
+    width: 100%;
     font-size: 30px;
-    padding-left: 20px;
     color:white;
-    
+    margin-left: 100px;
+    margin-top: 30px;
+    padding-bottom: 70px;
+    display: flex;
+    justify-content: start;
 }
+
+/* .navbar-main {
+    display: flex;
+    justify-content: center;
+
+} */
 
 .navbar-toggler {
     position: absolute;
@@ -14,20 +24,20 @@
     opacity: .2;
 }
 
-.ml-3 {
+/* .ml-3 {
     font-size: 30px;
     color: white;
-}
+} */
 
 .navLinks {
-    height: 90px;
+    height: 60px;
     padding-top: 10px;
-    padding-left: 50px;
+    padding-bottom: 20px;
 }
 
 .links {
     color: white;
-    padding-left: 50px;
+    
 }
 
 
