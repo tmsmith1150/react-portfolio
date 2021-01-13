@@ -14,7 +14,13 @@
     margin-top: 100px;
 }
 
-.brand {
+.lead {
+    padding-top: 10px;
+    color: white;
+    font-family: 'Arima Madurai', cursive;
+}
+
+.brand2 {
     color: white;
     font-family: 'Arima Madurai', cursive;
     padding-top: 40px;
@@ -73,5 +79,11 @@
         padding-top: 105px;
         width: 300px;
         margin-right: 250px;
+    }
+
+    .banner {
+        padding-right: 50px;
+        width: 250px;
+    height: 250px;
     }
   }

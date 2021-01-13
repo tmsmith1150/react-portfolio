@@ -29,16 +29,16 @@ class About extends React.Component {
         </Col>
         <Col>
         <div className="banner2">
-        <h1 className="display-4 brand animate__animated animate__fadeIn animate__delay-1s">Michelle Jordan</h1>
-        <p className="lead brand animate__animated animate__fadeIn animate__delay-3s">Full-Stack Web Developer.</p>
+        <h1 className="display-4 lead brand animate__animated animate__fadeIn animate__delay-1s">Michelle Jordan</h1>
+        <p className="lead brand animate__animated animate__fadeIn animate__delay-3s">Full-Stack Web Developer</p>
         </div>
         </Col>
         </Row>
         
         <Row className="justify-content-center">
           <Col>
-            <p className="brand animate__animated animate__fadeInUp animate__delay-3s">I am a passionate web developer who enjoys taking on new challenges, learning new technologies and bringing a vision to life through coding. I received my Certificate for Full Stack Web Development from UNCC. I'm excited to leverage my Web Development skills and background in Design to offer unique perspectives and create impactful web applications to enhance user experiences.</p>
-            <p className="brand resume">
+            <p className="brand2 animate__animated animate__fadeInUp animate__delay-3s">I am a passionate web developer who enjoys taking on new challenges, learning new technologies and bringing a vision to life through coding. I received my Certificate for Full Stack Web Development from UNCC. I'm excited to leverage my Web Development skills and background in Design to offer unique perspectives and create impactful web applications to enhance user experiences.</p>
+            <p className=" lead brand resume">
               Please check out my  <a className="res-link" href = {resume} target = "_blank" rel="noopener noreferrer">resume</a> to see more about my work experience.
             </p>
             <Row className="justify-content-center">

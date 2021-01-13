@@ -23,7 +23,7 @@ const isTabletOrPhone = useMediaQuery({
   return (
     
     <div className="navbar-main">
-      <div className="nav-bar">
+      <div className="nav-bar brand">
         {isDesktopOrLaptop && <>
       <Navbar className="nav sticky-top brand" light expand="md">
 
