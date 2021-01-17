@@ -43,8 +43,8 @@ class About extends React.Component {
             </p>
             <Row className="justify-content-center">
             <NavLink className="links" href="mailto:tmsmith1150@live.com"><img className="logo" src={emailIcon} alt="Logo"/></NavLink>
-                                    <NavLink className="links" href="https://www.linkedin.com/in/michelle-jordan-6988maiden/"><img className="logo" src={linkedInIcon} alt="Logo"/></NavLink>
-                                    <NavLink className="links" href="https://github.com/tmsmith1150"><img className="logo" src={githubIcon} alt="Logo"/></NavLink>
+                                    <NavLink className="links" target = "_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/michelle-jordan-6988maiden/"><img className="logo" src={linkedInIcon} alt="Logo"/></NavLink>
+                                    <NavLink className="links" target = "_blank" rel="noopener noreferrer" href="https://github.com/tmsmith1150"><img className="logo" src={githubIcon} alt="Logo"/></NavLink>
                                     </Row>
           </Col>
         </Row>
