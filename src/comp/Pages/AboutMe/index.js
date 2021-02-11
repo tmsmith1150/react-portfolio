@@ -3,7 +3,7 @@ import { Row, Col, NavLink } from 'reactstrap';
 import './style.css';
 import skills from "../../Info/skills.js";
 import headshot from "../../Pictures/selfie.jpeg";
-import resume from "../../Pictures/Michelle-Jordan-Resume.pdf";
+import resume from "../../Pictures/Michelle-Jordan-Resumem2b.pdf";
 import emailIcon from "../../Pictures/email-logo.png";
 import githubIcon from "../../Pictures/github-logo.png";
 import linkedInIcon from "../../Pictures/linkedin-logo.png";
@@ -37,7 +37,7 @@ class About extends React.Component {
         
         <Row className="justify-content-center">
           <Col>
-            <p className="brand2 animate__animated animate__fadeInUp animate__delay-3s">I am a passionate web developer who enjoys taking on new challenges, learning new technologies and bringing a vision to life through coding. I received my Certificate for Full Stack Web Development from UNCC. I'm excited to leverage my Web Development skills and background in Design to offer unique perspectives and create impactful web applications to enhance user experiences.</p>
+            <p className="brand2 animate__animated animate__fadeInUp animate__delay-3s">I am a passionate software developer who enjoys taking on new challenges, learning new technologies and bringing a vision to life through coding. I received my Certificate for Full Stack Web Development from UNCC. I'm excited to leverage my Web Development skills and background in Design to offer unique perspectives and create impactful web applications to enhance user experiences.</p>
             <p className=" lead brand resume">
               Please check out my  <a className="res-link" href = {resume} target = "_blank" rel="noopener noreferrer">resume</a> to see more about my work experience.
             </p>

@@ -1,7 +1,7 @@
 
 import budgetTrackerGif from '../Gifs/budget-tracker-example.gif';
 import fitnessTrackerGif from '../Gifs/fitness-tracker-example.gif';
-import socialExGif from '../Gifs/social-example.gif';
+// import socialExGif from '../Gifs/social-example.gif';
 import burgerBarnGif from '../Gifs/burger-barn-example.gif';
 import cyclepathsGif from '../Gifs/cyclepaths-example.gif';
 import coldBeerOpenGif from '../Gifs/Cold-Beer-Open.gif';
@@ -16,15 +16,15 @@ const projects = [
         "githubLink": "https://github.com/tmsmith1150/cold_beer_open",
         "deployedLink": "https://coldbeeropen.herokuapp.com/"
     },
-    {
-        "id": 1,
-        "projectName": "Social",
-        "exampleGif" : socialExGif,
-        "summary": " Social is a web application allowing users to search, host, or sign up to attend local events to create exciting new life experiences. As the site grows, it will also help you grow your group and attract more people who share your interests.",
-        "techUsed": "React, Express, Node.js, MongoDB, Mongoose, Bootstrap, Reactstrap, Animate.css, and this project is deployed to Heroku.",
-        "githubLink": "https://github.com/tmsmith1150/social",
-        "deployedLink": "https://socialhangout.herokuapp.com/"
-    },
+    // {
+    //     "id": 1,
+    //     "projectName": "Social",
+    //     "exampleGif" : socialExGif,
+    //     "summary": " Social is a web application allowing users to search, host, or sign up to attend local events to create exciting new life experiences. As the site grows, it will also help you grow your group and attract more people who share your interests.",
+    //     "techUsed": "React, Express, Node.js, MongoDB, Mongoose, Bootstrap, Reactstrap, Animate.css, and this project is deployed to Heroku.",
+    //     "githubLink": "https://github.com/tmsmith1150/social",
+    //     "deployedLink": "https://socialhangout.herokuapp.com/"
+    // },
     {
         "id": 2,
         "projectName": "Budget Tracker",
