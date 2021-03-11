@@ -37,7 +37,7 @@ class About extends React.Component {
         
         <Row className="justify-content-center">
           <Col>
-            <p className="brand2 animate__animated animate__fadeInUp animate__delay-3s">I am a passionate software developer who enjoys taking on new challenges, learning new technologies and bringing a vision to life through coding. I received my Certificate for Full Stack Web Development from UNCC. I'm excited to leverage my Web Development skills and background in Design to offer unique perspectives and create impactful web applications to enhance user experiences.</p>
+            <p className="brand2 animate__animated animate__fadeInUp animate__delay-3s">I am a Software Developer who enjoys taking on new challenges, learning new technologies and bringing a vision to life through coding. I received my Certificate for Full Stack Web Development from UNCC. I'm excited to leverage my Software Development skills and background in Design to offer unique perspectives and create impactful web applications to enhance user experiences.</p>
             <p className=" lead brand resume">
               Please check out my  <a className="res-link" href = {resume} target = "_blank" rel="noopener noreferrer">resume</a> to see more about my work experience.
             </p>
