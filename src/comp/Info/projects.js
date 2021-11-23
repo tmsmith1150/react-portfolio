@@ -5,8 +5,17 @@ import fitnessTrackerGif from '../Gifs/fitness-tracker-example.gif';
 import burgerBarnGif from '../Gifs/burger-barn-example.gif';
 import cyclepathsGif from '../Gifs/cyclepaths-example.gif';
 import coldBeerOpenGif from '../Gifs/Cold-Beer-Open.gif';
+import jjMissyGif from '../Gifs/jjmissy.gif';
 
 const projects = [
+    {
+        "id": 1,
+        "projectName": "The West Virginia Way",
+        "exampleGif" : jjMissyGif,
+        "summary": "Clients JJ and Melissa Tindall needed a website that captured their beautiful rental properties, scenic surroundings and the exhilarating ATV/UTV trail systems of West Virginia. This application allows users to view rooms, check availability, book reservations and make payment for their rental. In addition, the website showcases the unforgettable adventures of the Hatfield McCoy Trail Systems that their customers can experience.",
+        "techUsed": "Wordpress, HTML, CSS, Elementor and VikBooking Plugins.",
+        "deployedLink": "http://jjmissywebsite.com/"
+    },
     {
         "id": 1,
         "projectName": "Cold Beer Open",
@@ -16,6 +25,7 @@ const projects = [
         "githubLink": "https://github.com/tmsmith1150/cold_beer_open",
         "deployedLink": "https://coldbeeropen.herokuapp.com/"
     },
+    
     // {
     //     "id": 1,
     //     "projectName": "Social",
