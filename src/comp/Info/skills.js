@@ -7,6 +7,7 @@ import javascriptLogo from '../Pictures/javascript-logo.png';
 import htmlLogo from '../Pictures/html5-logo.png';
 import cssLogo from '../Pictures/CSS3-logo.png';
 import bootstrapLogo from '../Pictures/bootstrap-logo.png';
+import WordPressLogo from '../Pictures/WordPress-logo.png';
 
 const skills = [
     {
@@ -53,6 +54,11 @@ const skills = [
         "id": 9,
         "skill": "Bootstrap",
         "src": bootstrapLogo
+    },
+    {
+        "id": 9,
+        "skill": "WordPress",
+        "src": WordPressLogo
     }
 ];
 
