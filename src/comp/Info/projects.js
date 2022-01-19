@@ -5,7 +5,7 @@ import fitnessTrackerGif from '../Gifs/fitness-tracker-example.gif';
 import burgerBarnGif from '../Gifs/burger-barn-example.gif';
 import cyclepathsGif from '../Gifs/cyclepaths-example.gif';
 import coldBeerOpenGif from '../Gifs/Cold-Beer-Open.gif';
-import jjMissyGif from '../Gifs/jjmissy.gif';
+import jjMissyGif from '../Gifs/thewestvirginiaway.com (1).gif';
 
 const projects = [
     {
