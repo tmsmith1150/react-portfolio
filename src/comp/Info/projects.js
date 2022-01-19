@@ -14,7 +14,7 @@ const projects = [
         "exampleGif" : jjMissyGif,
         "summary": "Clients JJ and Melissa Tindall needed a website that captured their beautiful rental properties, scenic surroundings and the exhilarating ATV/UTV trail systems of West Virginia. This application allows users to view rooms, check availability, book reservations and make payment for their rental. In addition, the website showcases the unforgettable adventures of the Hatfield McCoy Trail Systems that their customers can experience.",
         "techUsed": "Wordpress, HTML, CSS, Elementor and VikBooking Plugins.",
-        "deployedLink": "http://jjmissywebsite.com/"
+        "deployedLink": "http://thewestvirginiaway.com/"
     },
     {
         "id": 1,

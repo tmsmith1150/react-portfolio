@@ -1,11 +1,8 @@
-.card-body > p{
-    background-color: rgb(240, 233, 233);
-}
 
-.m-3  {
-    background-image: url('https://us.123rf.com/450wm/kurkalukas/kurkalukas1705/kurkalukas170500036/78170538-fondo-astratto-metallico-grigio-aspetto-metallico-acciaio-inossidabile-alluminio-pendenza-nero-strut.jpg?ver=6');
-}
 
-.brand {
+
+
+.lead-2 {
     color: white;
+    font-size: 40px;
 }
